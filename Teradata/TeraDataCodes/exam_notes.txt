@@ -1,0 +1,56 @@
+CREATE SET TABLE employee_VIKRAM,NO FALLBACK,
+NO BEFORE JOURNAL,
+NO AFTER JOURNAL,
+CHECKSUM=DEFAULT,
+DEFAULT MERGEBLOCKRATIO
+(
+EMPNO INTEGER,
+ENAME VARCHAR(20),
+JOB VARCHAR(20),
+MGR INTEGER,
+SAL INTEGER,
+COMM INTEGER,
+DEPTNO INTEGER);
+
+CREATE  TABLE employee_sai
+(
+EMPNO integer,
+ENAME varchar(20),
+JOB varchar(20),
+MGR integer,
+SAL integer,
+COMM integer,
+DEPTNO integer
+);
+insert into employee_VIKRAM values(7369,'SMITH','CLERK',7902,800,,20);
+insert into employee_VIKRAM values(7499,'ALLEN','SALESMAN',7698,1600,300,30);
+insert into employee_VIKRAM values(7521,'WARD','SALESMAN',7698,1250,500,30);
+insert into employee_VIKRAM values(7566,'JONES','MANAGER',7839,2975,,20);
+insert into employee_VIKRAM values(7654,'MARTIN','SALESMAN',7698,1250,1400,30);
+insert into employee_VIKRAM values(7698,'BLAKE','MANAGER',7839,2850,,30);
+insert into employee_VIKRAM values(7782,'CLARK','MANAGER',7839,2450,,10);
+insert into employee_VIKRAM values(7788,'SCOTT','ANALYST',7566,3000,,20);
+insert into employee_VIKRAM values(7839,'KING','PRESIDENT',,5000,,10);
+insert into employee_VIKRAM values(7844,'TURNER','SALESMAN',7698,1500,0,30);
+insert into employee_VIKRAM values(7876,'ADAMS','CLERK',7788,1100,,20);
+insert into employee_VIKRAM values(7900,'JAMES','CLERK',7698,950,,30);
+insert into employee_VIKRAM values(7902,'FORD','ANALYST',7566,3000,,20);
+insert into employee_VIKRAM values(7934,'MILLER','CLERK',7782,1300,,10);
+
+
+
+
+
+
+CREATE TABLE DEPT_VIKRAM
+(
+DEPTNO INTEGER,
+DNAME VARCHAR(20),
+LOC VARCHAR(20)
+);
+
+insert into DEPT_VIKRAM values(10,'ACCOUNTING','NEWYORK');
+insert into DEPT_VIKRAM values(20,'RESEARCH','DALLAS');
+insert into DEPT_VIKRAM values(30,'SALES','CHICAGO');
+insert into DEPT_VIKRAM values(40,'OPERATIONS','BOSTON');
+

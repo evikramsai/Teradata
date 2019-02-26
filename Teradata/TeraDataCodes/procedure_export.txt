@@ -1,0 +1,10 @@
+WRITING:
+open a  notepad 
+write bteq script
+SAVING:
+create a folder in c drive (Teradata)
+filename.btq extension
+save as type : All files
+INVOKE:
+GO TO DIrectory where script is
+bteq<bfile_to_tab.btq(filename with exension)>(output.txt)output Filename
